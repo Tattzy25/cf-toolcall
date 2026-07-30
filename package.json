@@ -15,5 +15,10 @@
     "typescript": "^5.5.2",
     "vitest": "~3.2.0",
     "wrangler": "^4.115.0"
+  },
+  "dependencies": {
+    "@cloudflare/ai-chat": "^0.10.1",
+    "agents": "^0.20.1",
+    "ai": "^7.0.41"
   }
 }
