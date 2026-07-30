@@ -6,7 +6,7 @@ export interface Env {
 
 export default {
 	async fetch(request, env): Promise<Response> {
-		const response = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+		const response = await env.AI.run("@cf/google/gemma-4-26b-a4b-it", {
 			prompt: "What is the origin of the phrase Hello, World",
 		});
 
